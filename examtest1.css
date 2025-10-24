@@ -1,0 +1,28 @@
+.table-container {
+    max-height: 500px;
+    width: 500px;
+    border: 1px;
+    display: flex;
+    margin: 100px;
+    padding: 100px;
+}
+table {
+    width: 100%;
+    background-color: beige;
+}
+thead th {
+    background-color: aqua;
+    top: 0;
+    position: sticky;
+}
+th,td {
+    padding: 10px;
+    text-align: left;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(black,yellow);
+}
