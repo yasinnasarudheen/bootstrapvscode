@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.navbar{
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: space-between;  
+    gap: 10%;                
+    margin-top: 30px;
+}
+
+.sub {
+    width: 100%;  
+    height: 50%;            
+    max-width: 500px;         
+    flex-grow: 1;             
+    box-sizing: border-box;   
+    padding: 15px;
+}
+
+.student-item {
+    background: white;
+}
+
+.card {
+    border: none;
+}
